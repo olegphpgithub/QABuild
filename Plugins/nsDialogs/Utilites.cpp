@@ -6,7 +6,6 @@
 #include "ResourceContainer.h"
 #include "RTFLoader.h"
 #include "MD5.h"
-#include "../../AutoCompile/PU/FunctionName.h"
 #include "WAVUtils.h"
 #include "AES.h"
 #include "DllProxy.h"

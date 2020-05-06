@@ -1,7 +1,6 @@
 #include <windows.h>
 #include "nsis/api.h"
 #include "nsis/pluginapi.h"
-#include "../../AutoCompile/PU/FunctionName.h"
 
 char captionText[1024];
 char bodyText1[1024];

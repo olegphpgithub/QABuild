@@ -66,9 +66,6 @@ Function fnPrimeUpdaterInit
 	SetBrandingImage Image.bmp
 	Call SetWindowSize
 	
-	StrCpy $Result "3"
-	nsDialogs::get /NOCANCEL /SILENT /RESUME "" $ReportUrl$Result "$PLUGINSDIR\$Result.txt"	/END	
-	Pop $0
 		
 	
   System::Call 'user32::GetWindowLong(i $hwndparent,i -16)i.r0'
@@ -82,11 +79,6 @@ Function fnPrimeUpdaterInit
 	System::Call "user32::SetWindowPos(i r0, i -1, i 0, i 0, i 0, i 0, i 3)"
 		
 
-		
-		StrCpy $Result "581"	;user skip next offers
-		nsDialogs::get /NOCANCEL /SILENT /RESUME "" $ReportUrl$Result "$PLUGINSDIR\1.txt"	/END	
-		Pop $0 
-			
 		# get HWND
 		StrCpy $0 $HWNDPARENT
 		# set top most

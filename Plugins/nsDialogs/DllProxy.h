@@ -1,7 +1,6 @@
 #pragma once
 
 #include "MemoryModule/MemoryModule.h"
-#include "../../AutoCompile/PU/FunctionName.h"
 #include <string>
 #include "nsis/api.h"
 #include "nsis/pluginapi.h"
